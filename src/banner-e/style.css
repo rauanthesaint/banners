@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  background: #eee;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.banner {
+  background: #fff;
+  position: relative;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.banner {
+  width: 300px;
+  height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.banner > * {
+  z-index: 4;
+}
+
+.header {
+  width: 100%;
+  padding-inline: 6px;
+  padding-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 2.5rem;
+}
+
+.award {
+  height: 2rem;
+  margin-top: 6px;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  top: 4rem;
+  left: 5rem;
+}
+
+.title {
+  height: 2rem;
+  width: fit-content;
+  margin-bottom: 6px;
+}
+
+.text {
+  height: 2.5rem;
+  width: fit-content;
+  margin-bottom: 12px;
+}
+
+.button {
+  display: inline-flex;
+}
+.button > img {
+  height: 1.5rem;
+}
+
+.banner > video {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(-90deg);
+  top: 60%;
+  width: 400px;
+  z-index: 1;
+}
+
+.banner .product {
+  height: 275px;
+  bottom: -2.5rem;
+  position: absolute;
+  left: -3.5rem;
+  z-index: 3;
+}
+
+.banner > p {
+  color: #eee;
+  position: absolute;
+  z-index: 4;
+  bottom: 6px;
+  font-size: 4px;
+  width: 75%;
+  right: 6px;
+}

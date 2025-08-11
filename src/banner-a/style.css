@@ -88,7 +88,7 @@ body {
 }
 
 .banner > p {
-  color: white;
+  color: #eee;
   position: absolute;
   z-index: 4;
   bottom: 8px;
