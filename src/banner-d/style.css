@@ -59,7 +59,7 @@ body {
   height: 0.75rem;
 }
 
-.banner > video {
+.banner > .video {
   position: absolute;
   left: calc(50% + 1rem);
   top: calc(50% - 1.5rem);

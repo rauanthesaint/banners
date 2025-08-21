@@ -81,7 +81,7 @@ body {
   height: 1.5rem;
 }
 
-.banner > video {
+.banner > .video {
   position: absolute;
   left: 50%;
   transform: translateX(-50%) rotate(-90deg);

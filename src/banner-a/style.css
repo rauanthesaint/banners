@@ -69,7 +69,7 @@ body {
   width: 100%;
 }
 
-.banner > video {
+.banner > .video {
   position: absolute;
   bottom: -18%;
   left: 50%;
